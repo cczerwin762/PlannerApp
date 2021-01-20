@@ -4,7 +4,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TextField;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 
@@ -31,7 +34,15 @@ public class LoginController {
 	public void initialize() {
 		
 		this.SignInButton.setOnAction(event ->{
-			System.out.print("Sign in Clicked!");
+			try {
+				Parent root = FXMLLoader.load(getClass().getResource("/view/addTask.fxml"));
+				primaryStage.setTitle("Planner");
+				primaryStage.setScene(new Scene(root, 700, 400));
+				primaryStage.show();
+				
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
 		});
 	}
 	
