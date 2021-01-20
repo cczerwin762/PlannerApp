@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #64FFDA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="85.0" prefHeight="315.0" prefWidth="700.0" style="-fx-background-color: #FFFFFF;" />
+      <Label alignment="CENTER" layoutX="310.0" layoutY="30.0" text="Planner" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-1.0" layoutY="62.0" prefHeight="50.0" prefWidth="701.0" style="-fx-background-color: #1DE9B6;" AnchorPane.topAnchor="65.0">
+         <children>
+            <Label alignment="CENTER" layoutX="316.0" layoutY="14.0" text="Schedule">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="addButton" fitHeight="54.0" fitWidth="38.0" layoutX="648.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../assets/baseline_add_circle_black_18dp.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

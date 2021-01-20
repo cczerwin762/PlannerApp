@@ -20,7 +20,7 @@
             </Label>
             <Button fx:id="SignInButton" layoutX="453.0" layoutY="223.0" mnemonicParsing="false" text="Sign In" />
          </children></AnchorPane>
-      <Label alignment="CENTER" layoutX="300.0" layoutY="25.0" prefHeight="40.0" prefWidth="100.0" text="Planner">
+      <Label alignment="CENTER" layoutX="300.0" layoutY="25.0" prefHeight="40.0" prefWidth="100.0" text="Planner" AnchorPane.topAnchor="25.0">
          <font>
             <Font name="Cambria" size="24.0" />
          </font>

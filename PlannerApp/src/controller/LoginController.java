@@ -36,9 +36,9 @@ public class LoginController {
 		this.SignInButton.setOnAction(event ->{
 			try {
 				Parent root = FXMLLoader.load(getClass().getResource("/view/addTask.fxml"));
-				primaryStage.setTitle("Planner");
-				primaryStage.setScene(new Scene(root, 700, 400));
-				primaryStage.show();
+//				primaryStage.setTitle("Planner");
+//				primaryStage.setScene(new Scene(root, 700, 400));
+//				primaryStage.show();
 				
 			} catch(Exception e) {
 				e.printStackTrace();
